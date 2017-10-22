@@ -7,7 +7,7 @@ import numpy as np
 import cv2
 import urllib2
 
-host = ":8080"
+host = "100.64.220.41:8080"
 if len(sys.argv)>1:
     host = sys.argv[1]
 
