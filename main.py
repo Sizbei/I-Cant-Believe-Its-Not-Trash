@@ -24,7 +24,7 @@ import urllib2
 import serial
 from time import sleep
 ser = serial.Serial('/dev/cu.usbmodem1421', 9600)
-host = ":8080"
+host = "100.65.199.166:8080"
 if len(sys.argv)>1:
     host = sys.argv[1]
 
